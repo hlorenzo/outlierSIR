@@ -1,0 +1,21 @@
+Package: outlierSIR
+Type: Package
+Title: outlierSIR: Check for outliers in SIR models
+Version: 0.1.0
+Date: 2020-03-06
+Authors@R: c(person("Hadrien","Lorenzo", role = c("aut", "cre"),
+                     email = "hadrien.lorenzo.2015@gmail.com"),
+             person("Jerome","Saracco", role = c("aut"),
+                     email = "jerome.saracco@math.u-bordeaux1.fr"))
+Maintainer: Hadrien Lorenzo <hadrien.lorenzo.2015@gmail.com>
+Description: Check for outliers in SIR models using sampling methods.
+License: MIT + file LICENSE
+Encoding: UTF-8
+ByteCompile: true
+RoxygenNote: 6.1.1
+Imports: graphics,stats,doParallel,foreach,parallel,dr,Rdpack,changepoint
+RdMacros: Rdpack
+Suggests: knitr,rmarkdown,htmltools
+VignetteBuilder: knitr
+Depends: R (>= 2.10)
+URL: https://hadrienlorenzo.netlify.com/
